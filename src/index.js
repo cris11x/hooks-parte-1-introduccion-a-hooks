@@ -1,6 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { CallbackHook } from "./components/06-memos/CallbackHook";
+
+import { TodoApp } from "./components/08-useRedeucer/TodoApp";
+
+//import { Padre } from "./components/07-tarea-memo/Padre";
+//import './components/08-useRedeucer/intro-reducer';
+//import { CallbackHook } from "./components/06-memos/CallbackHook";
 //import { MemoHook } from "./components/06-memos/MemoHook";
 //import { Memorize } from "./components/06-memos/Memorize";
 //import { Layout } from "./components/05-useLayoutEffect/Layout";
@@ -14,6 +19,6 @@ import { CallbackHook } from "./components/06-memos/CallbackHook";
 
 ReactDOM.render(
   // <CounterApp />,
-  <CallbackHook />,
+  <TodoApp />,
   document.getElementById("root")
   );
